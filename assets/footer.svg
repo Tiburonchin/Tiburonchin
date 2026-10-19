@@ -1,13 +1,13 @@
-<svg width="854" height="90" viewBox="0 0 854 90" xmlns="http://www.w3.org/2000/svg">
+<svg width="854" height="130" viewBox="0 0 854 130" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Background Gradient -->
+    <!-- Background Gradient Deep Dark -->
     <linearGradient id="bgFooterGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#05070B" />
       <stop offset="50%" stop-color="#0D1117" />
       <stop offset="100%" stop-color="#05070B" />
     </linearGradient>
 
-    <!-- Inverted Wave Gradient (Wine to Cyber Purple) -->
+    <!-- Inverted Wave Gradient (Wine Red to Crimson to Cyber Purple) -->
     <linearGradient id="waveFooterGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#E11D48" />
       <stop offset="50%" stop-color="#FF0055" />
@@ -16,17 +16,17 @@
 
     <!-- Pattern Grid -->
     <pattern id="footerGrid" width="16" height="16" patternUnits="userSpaceOnUse">
-      <path d="M 16 0 L 0 0 0 16" fill="none" stroke="#30363D" stroke-width="0.5" opacity="0.2" />
+      <path d="M 16 0 L 0 0 0 16" fill="none" stroke="#30363D" stroke-width="0.5" opacity="0.25" />
     </pattern>
   </defs>
 
   <style>
     .footer-quote {
       font-family: "Fira Code", monospace;
-      font-size: 11.5px;
+      font-size: 12.5px;
       font-weight: 600;
-      fill: #8B949E;
-      letter-spacing: 1.5px;
+      fill: #C9D1D9;
+      letter-spacing: 1.8px;
     }
     .footer-highlight {
       fill: #A855F7;
@@ -35,13 +35,21 @@
     .footer-red {
       fill: #FF0055;
     }
+    .footer-sub {
+      font-family: "Fira Code", monospace;
+      font-size: 10.5px;
+      fill: #8B949E;
+      letter-spacing: 1.5px;
+      font-weight: 500;
+    }
   </style>
 
-  <rect width="854" height="90" rx="10" fill="url(#bgFooterGrad)" stroke="#30363D" stroke-width="1" />
-  <rect width="854" height="90" rx="10" fill="url(#footerGrid)" />
+  <!-- Deep Background Frame with Border (Height: 130) -->
+  <rect width="854" height="130" rx="12" fill="url(#bgFooterGrad)" stroke="#30363D" stroke-width="1.2" />
+  <rect width="854" height="130" rx="12" fill="url(#footerGrid)" />
 
   <!-- Animated Top Cyber Boundary Wave -->
-  <g opacity="0.45">
+  <g opacity="0.48">
     <path fill="url(#waveFooterGrad)">
       <animate
         attributeName="d"
@@ -51,25 +59,25 @@
         keyTimes="0;0.5;1"
         keySplines="0.4 0 0.2 1;0.4 0 0.2 1"
         values="
-          M 0 0 L 854 0 L 854 22 Q 640 40 427 18 T 0 26 Z;
-          M 0 0 L 854 0 L 854 30 Q 640 12 427 32 T 0 16 Z;
-          M 0 0 L 854 0 L 854 22 Q 640 40 427 18 T 0 26 Z
+          M 0 0 L 854 0 L 854 28 Q 640 50 427 24 T 0 34 Z;
+          M 0 0 L 854 0 L 854 38 Q 640 18 427 40 T 0 22 Z;
+          M 0 0 L 854 0 L 854 28 Q 640 50 427 24 T 0 34 Z
         "
       />
     </path>
   </g>
 
   <!-- Corner Brackets -->
-  <g stroke-width="1.2">
-    <path d="M 14 74 L 14 80 L 20 80" stroke="#A855F7" fill="none" opacity="0.7" />
-    <path d="M 840 74 L 840 80 L 834 80" stroke="#FF0055" fill="none" opacity="0.7" />
+  <g stroke-width="1.5">
+    <path d="M 16 108 L 16 116 L 24 116" stroke="#A855F7" fill="none" opacity="0.8" />
+    <path d="M 838 108 L 838 116 L 830 116" stroke="#FF0055" fill="none" opacity="0.8" />
   </g>
 
-  <!-- Centered Interactive Farewell & Signature -->
-  <text x="427" y="52" text-anchor="middle" class="footer-quote">
+  <!-- Centered Interactive Farewell & Signature (Comfortable Y positions) -->
+  <text x="427" y="74" text-anchor="middle" class="footer-quote">
     ENGINEERED FOR RESILIENCE <tspan class="footer-red">●</tspan> SCALED FOR IMPACT <tspan class="footer-red">●</tspan> <tspan class="footer-highlight">TIBURONCHIN // EDGAR RAMOS</tspan>
   </text>
-  <text x="427" y="70" text-anchor="middle" font-family="'Fira Code', monospace" font-size="9.5" fill="#484F58" letter-spacing="1">
+  <text x="427" y="98" text-anchor="middle" class="footer-sub">
     FACULTAD DE INGENIERÍA INDUSTRIAL Y DE SISTEMAS • UNAC • CALLAO, PERÚ
   </text>
 </svg>
