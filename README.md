@@ -1,14 +1,14 @@
 <div align="center">
 
-  <!-- ==================== HEADER DINÁMICO CAPSULE (ROJO GUINDA -> CYBER PURPLE) ==================== -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=5B061E,990033,E11D48,7928CA,8A2BE2&height=220&section=header&text=EDGAR%20RAMOS%20TRUJILLO&fontSize=42&fontAlignY=36&fontColor=FFFFFF&desc=AI%20Engineering%20%7C%20Autonomous%20Agents%20%7C%20Cloud%20%26%20DevOps%20Architect&descFontSize=17&descAlignY=60&descAlign=50&animation=fadeIn" width="100%" alt="Edgar Ramos Header" />
+  <!-- ==================== HEADER DINÁMICO CAPSULE (LOCAL SVG 100% CONFIABLE) ==================== -->
+  <img src="assets/header.svg" width="100%" alt="Edgar Ramos Header" />
 
   <br/>
 
   <!-- ==================== RETRO ASCII MATRIX GRADUATE AVATAR ==================== -->
   <p align="center">
     <a href="https://github.com/Tiburonchin">
-      <img src="https://raw.githubusercontent.com/Tiburonchin/Tiburonchin/main/assets/matrix_avatar.svg" width="280" alt="Edgar Ramos - Retro Matrix Graduate Avatar" />
+      <img src="assets/matrix_avatar.svg" width="280" alt="Edgar Ramos - Retro Matrix Graduate Avatar" />
     </a>
   </p>
 
@@ -26,17 +26,26 @@
     <img src="https://img.shields.io/badge/LOCATION-CALLAO%2C_PERU-990033?style=for-the-badge&logo=googlemaps&logoColor=white&labelColor=0D1117" alt="Location Badge" />
   </p>
 
-  <!-- ==================== RETRO NEON SOCIAL BAR (INSPIRADA EN TU REFERENCIA) ==================== -->
+  <!-- ==================== RETRO NEON SOCIAL BAR (CON TUS ENLACES REALES) ==================== -->
   <h3>🌐 Let's Connect</h3>
   <p align="center">
+    <a href="https://www.linkedin.com/in/edgar-ramos-trujillo-457ba8411" target="_blank">
+      <img src="https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    </a>
+    <a href="https://www.instagram.com/ealexis_rt?mdxt=MXdwdzNnbmhiNW1oag==" target="_blank">
+      <img src="https://img.shields.io/badge/INSTAGRAM-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+    </a>
+    <a href="mailto:edalramt@gmail.com" target="_blank">
+      <img src="https://img.shields.io/badge/GMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Personal Gmail" />
+    </a>
     <a href="mailto:earamost@unac.edu.pe" target="_blank">
-      <img src="https://img.shields.io/badge/EMAIL-earamost%40unac.edu.pe-E11D48?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117" alt="Email" />
+      <img src="https://img.shields.io/badge/UNAC_MAIL-7928CA?style=for-the-badge&logo=googlecloud&logoColor=white" alt="UNAC Institutional Mail" />
     </a>
     <a href="https://posgrado.unac.edu.pe/" target="_blank">
-      <img src="https://img.shields.io/badge/ROLE-SOFTWARE_ENGINEER_%40_UNAC-00FF66?style=for-the-badge&logo=googlecloud&logoColor=05070B&labelColor=0D1117" alt="UNAC EPG" />
+      <img src="https://img.shields.io/badge/ROLE-SOFTWARE_ENGINEER_%40_UNAC-00FF66?style=for-the-badge&logo=unac&logoColor=05070B&labelColor=0D1117" alt="UNAC EPG" />
     </a>
     <a href="https://github.com/Tiburonchin" target="_blank">
-      <img src="https://img.shields.io/badge/GITHUB-Tiburonchin-7928CA?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="GitHub Profile" />
+      <img src="https://img.shields.io/badge/GITHUB-Tiburonchin-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile" />
     </a>
   </p>
 
@@ -260,9 +269,9 @@
 
 <br/>
 
-<!-- ==================== FOOTER DINÁMICO CAPSULE ==================== -->
+<!-- ==================== FOOTER DINÁMICO CAPSULE (LOCAL SVG 100% CONFIABLE) ==================== -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=8A2BE2,7928CA,E11D48,990033,5B061E&height=120&section=footer" width="100%" alt="Footer Edgar Ramos" />
+  <img src="assets/footer.svg" width="100%" alt="Footer Edgar Ramos" />
   
   <p align="center">
     <sub>Designed with precision & engineered for real-world impact • © Edgar Ramos Trujillo (Tiburonchin)</sub>
