@@ -1,55 +1,63 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Tiburonchin/ELENA/main/img/img1.jpeg" width="180" alt="ELENA Core" style="border-radius: 50%; box-shadow: 0 8px 24px rgba(225,29,72,0.25);" />
-  <h1>✨ ELENA — Interactive Romantic Experience Engine</h1>
-  <p><b>Micro-aplicación web interactiva, lúdica y emocional diseñada para momentos memorables.</b></p>
+  <img src="https://raw.githubusercontent.com/Tiburonchin/ELENA/main/img/img1.jpeg" width="170" alt="ELENA Project" style="border-radius: 50%; box-shadow: 0 10px 30px rgba(225,29,72,0.22);" />
+  <h1>ELENA — Dedicated Interactive Experience</h1>
+  <p><i>Un tributo digital interactivo concebido desde la gratitud, el afecto y el diseño web intuitivo.</i></p>
 
   <p>
-    <img src="https://img.shields.io/badge/TYPE-PERSONAL_CREATIVE-FF0055?style=for-the-badge&logo=heart&logoColor=white" alt="Type" />
-    <img src="https://img.shields.io/badge/FRONTEND-VANILLA_JS_%2B_CSS3-38BDF8?style=for-the-badge&logo=javascript&logoColor=black" alt="Stack" />
-    <img src="https://img.shields.io/badge/STATUS-COMPLETED-00FF66?style=for-the-badge&logo=checkmarx&logoColor=black" alt="Status" />
+    <img src="https://img.shields.io/badge/DEDICATED_TO-ELENA-FF0055?style=for-the-badge&logo=heart&logoColor=white" alt="Dedicated to Elena" />
+    <img src="https://img.shields.io/badge/PURPOSE-GRATITUDE_%26_MEMORY-A855F7?style=for-the-badge&logo=affinitydesigner&logoColor=white" alt="Purpose" />
+    <img src="https://img.shields.io/badge/ARCHITECTURE-RESPONSIVE_SPA-38BDF8?style=for-the-badge&logo=javascript&logoColor=black" alt="Architecture" />
   </p>
 </div>
 
 ---
 
-### 📖 Acerca del Proyecto
+### // NOTA DEL AUTOR &amp; SIGNIFICADO DEL PROYECTO //
 
-**ELENA** es una experiencia digital personalizada concebida como un flujo interactivo por pasos (*multistep dynamic card*). A través de micro-animaciones, validación reactiva de opciones y mecanismos lúdicos de decisión (como botones evasivos y modales reactivos), convierte una invitación especial en un momento digital interactivo y memorable.
-
-> *"La tecnología también es un medio para expresar detalles únicos y cercanos con ingenio y diseño de interfaz."*
-
----
-
-### ✨ Características Principales
-
-* 🎭 **Flujo Dinámico por Pasos (Multi-step Wizard):** Transición fluida entre estados de decisión sin recargas de página.
-* 🕹️ **Interacción Reactiva Evasiva:** Detección de cursor y eventos táctiles para dinamizar la interacción en respuestas humorísticas ("Sí o Sí").
-* 📅 **Selector de Agenda & Cita:** Captura interactiva de día, hora y planes preferidos con validación inmediata.
-* 💌 **Generación de Invitación Final:** Visualización estilizada con stickers, efectos visuales y mensaje de confirmación listo para compartir.
-* 📱 **Diseño 100% Responsivo:** Adaptado a pantallas móviles y de escritorio con paleta pastel cálida y tipografía amigable (*Nunito*).
+> *"En el camino de la ingeniería y la vida universitaria, contar con alguien incondicional que te acompaña, cree en ti en cada desvelo y te impulsa a seguir adelante no tiene precio. Este proyecto fue programado línea por línea con mucho cariño y gratitud profunda hacia mi compañera de vida y apoyo constante: Elena. A través de este espacio interactivo quise plasmar que el software también es un lenguaje para inmortalizar momentos especiales y agradecer a quien siempre ha estado a mi lado."*
+> 
+> — **Edgar Ramos (Tiburonchin)**
 
 ---
 
-### 🛠️ Stack Tecnológico
+### // PROPÓSITO &amp; CONCEPTO DE EXPERIENCIA //
 
-* **HTML5 Semántico:** Estructura modular de tarjetas y contenedores de stickers.
-* **CSS3 Moderno:** Flexbox, CSS Variables, animaciones `@keyframes`, sombras volumétricas y diseño responsivo móvil.
-* **JavaScript ES6+:** Manipulación del DOM, máquina de estados simple para los pasos de la invitación y control de eventos.
-* **Iconografía & Assets:** FontAwesome 6, Google Fonts y stickers temáticos optimizados.
+**ELENA** es una aplicación web interactiva diseñada bajo un enfoque de **narrativa guiada por pasos (*multi-step experiential card*)**. Combina micro-animaciones, gamificación afectiva y validaciones dinámicas para construir una experiencia de usuario lúdica, cercana y visualmente armónica:
+
+* **Mecánica Lúdica de Decisión:** Detección de puntero y eventos táctiles en pantalla para generar botones reactivos y evasivos en respuestas humorísticas, dinamizando la interacción.
+* **Flujo Progresivo de Estados:** Transición suave entre estados de consulta, mensajes emotivos y confirmación sin recarga de pantalla (SPA ligera).
+* **Agenda y Planificación Interactiva:** Módulo de selección de fechas y horarios que valida la disponibilidad de forma amigable.
+* **Tarjeta de Invitación Final:** Consolidación gráfica personalizada con stickers, mensajes y confirmación estructurada para compartir.
 
 ---
 
-### 🚀 Despliegue y Uso Local
+### // ESPECIFICACIÓN TÉCNICA //
 
-1. **Clonar el repositorio:**
+A pesar de su naturaleza íntima y emocional, la aplicación fue construida manteniendo estándares rigurosos de desarrollo web frontend:
+
+* **Estructura Semántica (HTML5):** Arquitectura limpia basada en contenedores de estado, modularidad para cada fase del wizard y optimización de meta-etiquetas responsivas.
+* **Diseño y Estilizado (CSS3 Moderno):**
+  * Variables nativas CSS para paleta tonal cálida y armónica.
+  * Transiciones y animaciones `@keyframes` con aceleración por hardware (`transform`, `opacity`).
+  * Enfoque *Mobile-First* con adaptabilidad fluida a cualquier resolución de pantalla (smartphones y tablets).
+* **Lógica Reactiva (JavaScript ES6+):**
+  * Máquina de estados finita en cliente para gestionar el avance entre etapas.
+  * Captura de eventos del DOM en tiempo real (`pointermove`, `click`, validación de campos de fecha/hora).
+  * Cero dependencias externas pesadas, asegurando una carga ultrarrápida e instantánea.
+
+---
+
+### // DESPLIEGUE &amp; VISUALIZACIÓN //
+
+1. **Clonación del repositorio:**
    ```bash
    git clone https://github.com/Tiburonchin/ELENA.git
    ```
-2. **Abrir en el navegador:**
-   Simplemente abre `index.html` en cualquier navegador web moderno (no requiere Node.js ni servidor backend).
+2. **Ejecución inmediata:**
+   No requiere entornos Node.js ni compilación backend. Basta con abrir `index.html` en cualquier navegador web moderno o montarlo en GitHub Pages / Vercel para su visualización en línea.
 
 ---
 
 <div align="center">
-  <sub>Desarrollado con dedicación por <a href="https://github.com/Tiburonchin">Edgar Ramos (Tiburonchin)</a></sub>
+  <sub>Diseñado y programado con afecto y dedicación por <a href="https://github.com/Tiburonchin">Edgar Ramos</a></sub>
 </div>
