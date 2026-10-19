@@ -1,8 +1,8 @@
 def generate_terminal_svg(output_path="assets/terminal-console.svg"):
     # SVG terminal clean, retro-cyber aesthetic
-    # Width: 780, Height: 230
+    # Width: 780, Height: 245
     svg = []
-    svg.append('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 230" width="100%" height="100%">')
+    svg.append('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 245" width="100%" height="100%">')
     svg.append('  <defs>')
     svg.append('    <linearGradient id="termBg" x1="0%" y1="0%" x2="100%" y2="100%">')
     svg.append('      <stop offset="0%" stop-color="#11151D" />')
@@ -15,7 +15,7 @@ def generate_terminal_svg(output_path="assets/terminal-console.svg"):
     svg.append('    </linearGradient>')
     svg.append('  </defs>')
     svg.append('  <style>')
-    svg.append('    .term-code { font-family: "Fira Code", "Courier New", monospace; font-size: 13px; }')
+    svg.append('    .term-code { font-family: "Fira Code", "Courier New", monospace; font-size: 12.5px; }')
     svg.append('    .prompt { fill: #00FF66; font-weight: 700; }')
     svg.append('    .cmd { fill: #F43F5E; font-weight: 700; }')
     svg.append('    .title-val { fill: #FFFFFF; font-weight: 600; }')
@@ -29,7 +29,7 @@ def generate_terminal_svg(output_path="assets/terminal-console.svg"):
     svg.append('  </style>')
     
     # Outer frame
-    svg.append('  <rect x="1" y="1" width="778" height="228" rx="10" fill="url(#termBg)" stroke="#30363D" stroke-width="1.2" />')
+    svg.append('  <rect x="1" y="1" width="778" height="243" rx="10" fill="url(#termBg)" stroke="#30363D" stroke-width="1.2" />')
     svg.append('  <rect x="1" y="1" width="778" height="34" rx="10" fill="#161B22" />')
     svg.append('  <rect x="1" y="24" width="778" height="11" fill="#161B22" />')
     svg.append('  <line x1="1" y1="35" x2="779" y2="35" stroke="url(#borderGrad)" stroke-width="1.5" opacity="0.8" />')
@@ -41,24 +41,26 @@ def generate_terminal_svg(output_path="assets/terminal-console.svg"):
     svg.append('  <text x="390" y="22" text-anchor="middle" font-family="\'Fira Code\', monospace" font-size="11" fill="#8B949E" font-weight="600">tiburonchin@fiis-unac: ~ (zsh)</text>')
     
     # Terminal content
-    svg.append('  <g class="term-code" transform="translate(24, 62)">')
+    svg.append('  <g class="term-code" transform="translate(24, 60)">')
     
     # Line 1: whoami
     svg.append('    <text x="0" y="0"><tspan class="prompt">❯ </tspan><tspan class="cmd">whoami</tspan></text>')
-    # Line 2: identity with FIIS / Sistemas 7mo ciclo
-    svg.append('    <text x="18" y="22"><tspan class="title-val">Edgar Ramos Trujillo</tspan> <tspan class="branch">|</tspan> <tspan class="fiis-val">Ingeniería de Sistemas (7mo Ciclo - FIIS UNAC)</tspan></text>')
+    # Line 2: identity: AI Engineer & Cloud DevOps Architect | FIIS UNAC
+    svg.append('    <text x="18" y="22"><tspan class="title-val">Edgar Ramos Trujillo</tspan> <tspan class="branch">|</tspan> <tspan class="sub-val">AI Engineer &amp; Cloud DevOps</tspan> <tspan class="branch">•</tspan> <tspan class="fiis-val">Ingeniería de Sistemas (7mo Ciclo - FIIS UNAC)</tspan></text>')
     
     # Line 3: core_specialties
-    svg.append('    <text x="0" y="56"><tspan class="prompt">❯ </tspan><tspan class="cmd">core_specialties</tspan></text>')
-    # Line 4: Autonomous agents
-    svg.append('    <text x="18" y="78"><tspan class="branch">├── </tspan><tspan class="key">Autonomous AI Agents : </tspan><tspan class="val">FastMCP, Model Context Protocol, LLM Orchestration</tspan></text>')
-    # Line 5: Backend
-    svg.append('    <text x="18" y="98"><tspan class="branch">├── </tspan><tspan class="key">Backend &amp; Pipelines  : </tspan><tspan class="val">Python (FastAPI/Scrapy), TypeScript (Node/Next), Supabase RLS</tspan></text>')
-    # Line 6: Infra
-    svg.append('    <text x="18" y="118"><tspan class="branch">└── </tspan><tspan class="key">Cloud &amp; Web Systems  : </tspan><tspan class="val">Docker, WebRTC SFU, Arquitectura de Sistemas &amp; CI/CD</tspan></text>')
+    svg.append('    <text x="0" y="54"><tspan class="prompt">❯ </tspan><tspan class="cmd">core_specialties</tspan></text>')
+    # Line 4: Autonomous agents & Agentic skills
+    svg.append('    <text x="18" y="74"><tspan class="branch">├── </tspan><tspan class="key">Autonomous AI &amp; Agentic Skills : </tspan><tspan class="val">FastMCP, Model Context Protocol, Multi-Agent Workflows, LangChain</tspan></text>')
+    # Line 5: LLM Orchestration & RAG
+    svg.append('    <text x="18" y="94"><tspan class="branch">├── </tspan><tspan class="key">LLM Inference &amp; Tool Calling   : </tspan><tspan class="val">Ollama, Custom Skills &amp; Subagents, Prompt Systems, Local LLM Runtimes</tspan></text>')
+    # Line 6: DevOps & Cloud Architecture
+    svg.append('    <text x="18" y="114"><tspan class="branch">├── </tspan><tspan class="key">Cloud DevOps &amp; Microservices  : </tspan><tspan class="val">Dockerized Containers, GitHub Actions CI/CD, Supabase RLS, Linux DevOps</tspan></text>')
+    # Line 7: Backend & Pipelines
+    svg.append('    <text x="18" y="134"><tspan class="branch">└── </tspan><tspan class="key">Backend &amp; Distributed Systems : </tspan><tspan class="val">Python (FastAPI/Scrapy), TypeScript (Next/Node), WebRTC SFU</tspan></text>')
     
-    # Line 7: cursor
-    svg.append('    <text x="0" y="146"><tspan class="prompt">❯ </tspan><rect x="18" y="134" width="8" height="15" class="cursor" /></text>')
+    # Line 8: cursor
+    svg.append('    <text x="0" y="162"><tspan class="prompt">❯ </tspan><rect x="18" y="150" width="8" height="15" class="cursor" /></text>')
     
     svg.append('  </g>')
     svg.append('</svg>')

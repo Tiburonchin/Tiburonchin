@@ -13,13 +13,13 @@
 <td width="2%"></td>
 <td width="65%" valign="top">
 <a href="https://github.com/Tiburonchin">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=15&duration=2500&pause=1000&color=FF0055&background=0D111700&center=false&vCenter=true&multiline=false&width=560&height=32&lines=%24+init_system+--target%3D%22Autonomous_AI_Agents%22;%24+deploy+--cloud%3D%22Docker+%2B+Distributed_Pipelines%22;%24+architect+--stack%3D%22Python+%2B+TypeScript+%2B+MCP%22;%24+lead_project+--id%3D%22ELIS_5.0%22" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=15&duration=2500&pause=1000&color=FF0055&background=0D111700&center=false&vCenter=true&multiline=false&width=560&height=32&lines=%24+role%3D%22AI_Engineer_%2B_Cloud_DevOps%22;%24+deploy+--agents%3D%22FastMCP_%2B_Custom_Skills%22;%24+orchestrate+--llm%3D%22Multi-Agent_Pipelines%22;%24+ci-cd+--infra%3D%22Docker_%2B_Actions_%2B_Linux%22" alt="Typing SVG" />
 </a>
 <p>
-<img src="https://img.shields.io/badge/STATUS-SYSTEM_ONLINE-00FF66?style=flat-square&logo=statuspage&logoColor=black&labelColor=0D1117" alt="Status Online" />
+<img src="https://img.shields.io/badge/ROLE-AI_ENGINEER_%26_DEVOPS-A855F7?style=flat-square&logo=openai&logoColor=white&labelColor=0D1117" alt="Role AI DevOps" />
+<img src="https://img.shields.io/badge/AGENTS-MCP_%2B_SKILLS_WORKFLOWS-00FF66?style=flat-square&logo=anthropic&logoColor=white&labelColor=0D1117" alt="Agents MCP" />
 <img src="https://img.shields.io/badge/FIIS-SISTEMAS_7MO_CICLO-38BDF8?style=flat-square&logo=googlecloud&logoColor=white&labelColor=0D1117" alt="FIIS 7mo Ciclo" />
 <img src="https://img.shields.io/badge/UNAC-FACULTAD_FIIS-FF0055?style=flat-square&logo=unac&logoColor=white&labelColor=0D1117" alt="UNAC" />
-<img src="https://img.shields.io/badge/LOCATION-CALLAO%2C_PERU-8B949E?style=flat-square&logo=googlemaps&logoColor=white&labelColor=0D1117" alt="Location" />
 </p>
 <img src="assets/terminal-console.svg" width="100%" alt="Terminal System Console" />
 </td>
@@ -34,15 +34,17 @@
 <table width="100%" border="0" cellpadding="0" cellspacing="0">
 <tr>
 <td width="49%" valign="top">
-<b>AI &amp; AGENT SYSTEMS</b><br/>
-• <code>Languages &amp; SDKs</code> : Python 3.11+, LangChain, PyTorch, Ollama<br/>
-• <code>Protocols &amp; APIs</code> : FastMCP / Model Context Protocol, HuggingFace
+<b>AI ENGINEERING, AGENTS &amp; SKILLS</b><br/>
+• <code>Agent Architectures</code> : FastMCP (Model Context Protocol), ReAct Loops, Subagents<br/>
+• <code>Frameworks &amp; SDKs</code> : LangChain, PyTorch, Ollama, HuggingFace, Custom Agent Skills<br/>
+• <code>LLM Tool Calling</code> : Function Calling, Structured JSON Schemas, Vector RAG Workflows
 </td>
 <td width="2%"></td>
 <td width="49%" valign="top">
-<b>BACKEND &amp; CLOUD OPS</b><br/>
-• <code>Core Runtimes</code> : TypeScript, Node.js, FastAPI, PHP<br/>
-• <code>Containers &amp; DB</code> : Docker, PostgreSQL, Supabase, MySQL, LiveKit WebRTC
+<b>CLOUD DEVOPS &amp; BACKEND SYSTEMS</b><br/>
+• <code>DevOps &amp; Infra</code> : Docker, GitHub Actions CI/CD, Linux Server Ops, Bash Scripting<br/>
+• <code>Runtimes &amp; APIs</code> : Python 3.11+ (FastAPI/Scrapy), TypeScript (Node.js/Next.js), PHP<br/>
+• <code>Cloud Databases</code> : Supabase (PostgreSQL + RLS), MySQL, WebRTC SFU Streaming
 </td>
 </tr>
 </table>
