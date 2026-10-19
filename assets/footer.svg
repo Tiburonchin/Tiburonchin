@@ -1,49 +1,75 @@
+<svg width="854" height="90" viewBox="0 0 854 90" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgFooterGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05070B" />
+      <stop offset="50%" stop-color="#0D1117" />
+      <stop offset="100%" stop-color="#05070B" />
+    </linearGradient>
 
-      <svg
-        width="854"
-        height="120"
-        xmlns="http://www.w3.org/2000/svg"
-        xmlns:xlink="http://www.w3.org/1999/xlink"
-        style="z-index:1;position:relative"
-        viewBox="0 0 854 120"
-      >
-        <style>
-      .text {   font-size: 70px;   font-weight: 700;   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;  } .desc {   font-size: 20px;   font-weight: 500;   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;  } path {   transform: rotate(180deg);   transform-origin: 50% 50%;  } 
-      .text, .desc {   animation: fadeIn 1.2s ease-in-out forwards;  } @keyframes fadeIn {   from {     opacity: 0;   }   to {     opacity: 1;   }  } 
-    </style>
-        <defs>
-              <linearGradient id="linear" x1="0%" y1="0%" x2="100%" y2="0%">
-                <stop offset="0%" stop-color="#F8B195"/><stop offset="50%" stop-color="#F67280"/><stop offset="100%" stop-color="#C06C84"/>
-              </linearGradient>
-            </defs>
-        
-      <g transform="translate(427, 60) scale(1, 1) translate(-427, -60)">
-        <path d="" fill="url(#linear)" opacity="0.4" >
-          <animate
-              attributeName="d"
-              dur="20s"
-              repeatCount="indefinite"
-              keyTimes="0;0.333;0.667;1"
-              calcmod="spline"
-              keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1"
-              begin="0s"
-              values="M0 0L 0 40Q 213.5 80 427 50T 854 75L 854 0 Z;M0 0L 0 65Q 213.5 80 427 60T 854 50L 854 0 Z;M0 0L 0 85Q 213.5 55 427 85T 854 50L 854 0 Z;M0 0L 0 40Q 213.5 80 427 50T 854 75L 854 0 Z">
-          </animate>
-        </path>
-        <path d="" fill="url(#linear)" opacity="0.4" >
-          <animate
-            attributeName="d"
-            dur="20s"
-            repeatCount="indefinite"
-            keyTimes="0;0.333;0.667;1"
-            calcmod="spline"
-            keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1"
-            begin="-10s"
-            values="M0 0L 0 55Q 213.5 100 427 70T 854 80L 854 0 Z;M0 0L 0 70Q 213.5 40 427 40T 854 60L 854 0 Z;M0 0L 0 65Q 213.5 45 427 70T 854 85L 854 0 Z;M0 0L 0 55Q 213.5 100 427 70T 854 80L 854 0 Z">
-          </animate>
-        </path>
-      </g>
-         
-        
-      </svg>
-    
+    <!-- Inverted Wave Gradient (Wine to Cyber Purple) -->
+    <linearGradient id="waveFooterGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E11D48" />
+      <stop offset="50%" stop-color="#FF0055" />
+      <stop offset="100%" stop-color="#A855F7" />
+    </linearGradient>
+
+    <!-- Pattern Grid -->
+    <pattern id="footerGrid" width="16" height="16" patternUnits="userSpaceOnUse">
+      <path d="M 16 0 L 0 0 0 16" fill="none" stroke="#30363D" stroke-width="0.5" opacity="0.2" />
+    </pattern>
+  </defs>
+
+  <style>
+    .footer-quote {
+      font-family: "Fira Code", monospace;
+      font-size: 11.5px;
+      font-weight: 600;
+      fill: #8B949E;
+      letter-spacing: 1.5px;
+    }
+    .footer-highlight {
+      fill: #A855F7;
+      font-weight: 700;
+    }
+    .footer-red {
+      fill: #FF0055;
+    }
+  </style>
+
+  <rect width="854" height="90" rx="10" fill="url(#bgFooterGrad)" stroke="#30363D" stroke-width="1" />
+  <rect width="854" height="90" rx="10" fill="url(#footerGrid)" />
+
+  <!-- Animated Top Cyber Boundary Wave -->
+  <g opacity="0.45">
+    <path fill="url(#waveFooterGrad)">
+      <animate
+        attributeName="d"
+        dur="16s"
+        repeatCount="indefinite"
+        calcMode="spline"
+        keyTimes="0;0.5;1"
+        keySplines="0.4 0 0.2 1;0.4 0 0.2 1"
+        values="
+          M 0 0 L 854 0 L 854 22 Q 640 40 427 18 T 0 26 Z;
+          M 0 0 L 854 0 L 854 30 Q 640 12 427 32 T 0 16 Z;
+          M 0 0 L 854 0 L 854 22 Q 640 40 427 18 T 0 26 Z
+        "
+      />
+    </path>
+  </g>
+
+  <!-- Corner Brackets -->
+  <g stroke-width="1.2">
+    <path d="M 14 74 L 14 80 L 20 80" stroke="#A855F7" fill="none" opacity="0.7" />
+    <path d="M 840 74 L 840 80 L 834 80" stroke="#FF0055" fill="none" opacity="0.7" />
+  </g>
+
+  <!-- Centered Interactive Farewell & Signature -->
+  <text x="427" y="52" text-anchor="middle" class="footer-quote">
+    ENGINEERED FOR RESILIENCE <tspan class="footer-red">●</tspan> SCALED FOR IMPACT <tspan class="footer-red">●</tspan> <tspan class="footer-highlight">TIBURONCHIN // EDGAR RAMOS</tspan>
+  </text>
+  <text x="427" y="70" text-anchor="middle" font-family="'Fira Code', monospace" font-size="9.5" fill="#484F58" letter-spacing="1">
+    FACULTAD DE INGENIERÍA ELÉCTRICA Y ELECTRÓNICA • UNAC • CALLAO, PERÚ
+  </text>
+</svg>
