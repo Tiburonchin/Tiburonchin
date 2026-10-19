@@ -117,20 +117,10 @@ Sitio web corporativo y de catálogo comercial con diseño premium responsivo, m
 </tr>
 </table>
 
-<!-- ==================== CREATIVE & DEDICATED SHOWCASE (ELENA) ==================== -->
+<!-- ==================== SPECIAL DEDICATION (FOOTNOTE) ==================== -->
 <div align="center">
-<h3>// CREATIVE &amp; DEDICATED SHOWCASE //</h3>
+<sub>✦ <i>Desarrollo interactivo dedicado con cariño a mi pareja: <a href="https://github.com/Tiburonchin/ELENA">ELENA (código abierto como referencia de experiencia SPA lúdica)</a></i> ✦</sub>
 </div>
-
-<table width="100%" border="0" cellpadding="0" cellspacing="0">
-<tr>
-<td width="100%" valign="top">
-<h4><a href="https://github.com/Tiburonchin/ELENA">ELENA — Interactive Experience &amp; Tribute Engine</a></h4>
-Micro-aplicación web interactiva por pasos (multi-step wizard) con interacciones reactivas de puntero, decisiones lúdicas y generación de invitaciones personalizadas. Un tributo digital programado con afecto y gratitud hacia mi compañera y apoyo incondicional en el camino de la ingeniería.<br/>
-• <b>Stack:</b> <code>Vanilla JavaScript</code> <code>CSS3 Animations</code> <code>UX/UI Creative</code> <code>Responsive SPA</code>
-</td>
-</tr>
-</table>
 
 <!-- ==================== CONNECT HUB ==================== -->
 <div align="center">
