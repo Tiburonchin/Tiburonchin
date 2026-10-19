@@ -13,11 +13,11 @@
 <td width="2%"></td>
 <td width="65%" valign="top">
 <a href="https://github.com/Tiburonchin">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=15&duration=2500&pause=1000&color=FF0055&background=0D111700&center=false&vCenter=true&multiline=false&width=560&height=32&lines=%24+role%3D%22AI_Engineer_%2B_Cloud_DevOps%22;%24+deploy+--agents%3D%22FastMCP_%2B_Custom_Skills%22;%24+orchestrate+--llm%3D%22Multi-Agent_Pipelines%22;%24+ci-cd+--infra%3D%22Docker_%2B_Actions_%2B_Linux%22" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=15&duration=2500&pause=1000&color=FF0055&background=0D111700&center=false&vCenter=true&multiline=false&width=560&height=32&lines=%24+role%3D%22AI_Engineer_%2B_Cloud_DevOps%22;%24+architect%3D%22Software_Systems_%2B_FastMCP%22;%24+deploy+--agents%3D%22Multi-Agent_Pipelines%22;%24+ci-cd+--infra%3D%22Docker_%2B_Actions_%2B_Linux%22" alt="Typing SVG" />
 </a>
 <p>
 <img src="https://img.shields.io/badge/ROLE-AI_ENGINEER_%26_DEVOPS-A855F7?style=flat-square&logo=openai&logoColor=white&labelColor=0D1117" alt="Role AI DevOps" />
-<img src="https://img.shields.io/badge/AGENTS-MCP_%2B_SKILLS_WORKFLOWS-00FF66?style=flat-square&logo=anthropic&logoColor=white&labelColor=0D1117" alt="Agents MCP" />
+<img src="https://img.shields.io/badge/ARCHITECT-SOFTWARE_SYSTEMS_%26_MCP-00FF66?style=flat-square&logo=anthropic&logoColor=white&labelColor=0D1117" alt="Software Architect" />
 <img src="https://img.shields.io/badge/FIIS-SISTEMAS_7MO_CICLO-38BDF8?style=flat-square&logo=googlecloud&logoColor=white&labelColor=0D1117" alt="FIIS 7mo Ciclo" />
 <img src="https://img.shields.io/badge/UNAC-FACULTAD_FIIS-FF0055?style=flat-square&logo=unac&logoColor=white&labelColor=0D1117" alt="UNAC" />
 </p>
@@ -34,23 +34,31 @@
 <table width="100%" border="0" cellpadding="0" cellspacing="0">
 <tr>
 <td width="49%" valign="top">
-<b>AI ENGINEERING, AGENTS &amp; SKILLS</b><br/>
-• <code>Agent Architectures</code> : FastMCP (Model Context Protocol), ReAct Loops, Subagents<br/>
-• <code>Frameworks &amp; SDKs</code> : LangChain, PyTorch, Ollama, HuggingFace, Custom Agent Skills<br/>
-• <code>LLM Tool Calling</code> : Function Calling, Structured JSON Schemas, Vector RAG Workflows
+<b>🧠 AI ENGINEERING, AGENTS &amp; WORKFLOWS</b><br/>
+• <code>Agent Protocol &amp; SDKs</code> : FastMCP (Model Context Protocol), Graphify, LangChain, Ollama<br/>
+• <code>Dev Environments &amp; AI</code> : Google Antigravity IDE, Cursor, GitHub Copilot Pro, VS Code<br/>
+• <code>Agentic Mechanisms</code> : ReAct Loops, Custom Skills, Subagents, Function Calling, RAG
+<hr/>
+<b>🎨 FRONTEND &amp; UI ARCHITECTURE</b><br/>
+• <code>Frameworks &amp; Runtimes</code> : React, Vite, TypeScript, Next.js, HTML5, CSS3<br/>
+• <code>Design Systems &amp; Motion</code> : Tailwind CSS, shadcn/ui, GSAP, Lottie Animations
 </td>
 <td width="2%"></td>
 <td width="49%" valign="top">
-<b>CLOUD DEVOPS &amp; BACKEND SYSTEMS</b><br/>
-• <code>DevOps &amp; Infra</code> : Docker, GitHub Actions CI/CD, Linux Server Ops, Bash Scripting<br/>
-• <code>Runtimes &amp; APIs</code> : Python 3.11+ (FastAPI/Scrapy), TypeScript (Node.js/Next.js), PHP<br/>
-• <code>Cloud Databases</code> : Supabase (PostgreSQL + RLS), MySQL, WebRTC SFU Streaming
+<b>⚙️ BACKEND, CLOUD DEVOPS &amp; AUTOMATION</b><br/>
+• <code>Runtimes &amp; APIs</code> : Python 3.11+ (FastAPI/Scrapy), PHP 8+, Node.js, REST APIs<br/>
+• <code>Cloud, Data &amp; Auth</code> : Supabase (Cloud, Auth, RLS), Firebase, MySQL, PostgreSQL, OAuth<br/>
+• <code>DevOps &amp; Automation</code> : Docker, GitHub Actions (CI/CD), Linux Server Ops, CRM &amp; Leads ETL
+<hr/>
+<b>⚡ SYSTEMS, NETWORKS &amp; HARDWARE CORE</b><br/>
+• <code>Low-Level &amp; Virtualization</code> : Ensamblador x86, VirtualBox, Linux Kernels<br/>
+• <code>Technical Simulation</code> : CADE SIMU, FluidSIM (Automatización Técnica &amp; Control)
 </td>
 </tr>
 </table>
 
 <div align="center">
-<img src="https://skillicons.dev/icons?i=py,ts,react,vite,tailwind,supabase,postgres,docker,githubactions,linux,bash,postman&theme=dark" alt="Skill Icons Matrix" />
+<img src="https://skillicons.dev/icons?i=py,ts,react,vite,tailwind,supabase,firebase,postgres,mysql,docker,githubactions,linux,bash,vscode,postman,php,html,css&perline=9&theme=dark" alt="Comprehensive Skill Icons Matrix" />
 </div>
 
 <!-- ==================== TELEMETRÍA Y CONTRIBUCIONES ==================== -->
