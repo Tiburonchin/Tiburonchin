@@ -18,7 +18,7 @@
 <p>
 <img src="https://img.shields.io/badge/STATUS-SYSTEM_ONLINE-00FF66?style=flat-square&logo=statuspage&logoColor=black&labelColor=0D1117" alt="Status Online" />
 <img src="https://img.shields.io/badge/FIIS-SISTEMAS_7MO_CICLO-38BDF8?style=flat-square&logo=googlecloud&logoColor=white&labelColor=0D1117" alt="FIIS 7mo Ciclo" />
-<img src="https://img.shields.io/badge/UNAC-FACULTAD_FIEE_FIIS-FF0055?style=flat-square&logo=unac&logoColor=white&labelColor=0D1117" alt="UNAC" />
+<img src="https://img.shields.io/badge/UNAC-FACULTAD_FIIS-FF0055?style=flat-square&logo=unac&logoColor=white&labelColor=0D1117" alt="UNAC" />
 <img src="https://img.shields.io/badge/LOCATION-CALLAO%2C_PERU-8B949E?style=flat-square&logo=googlemaps&logoColor=white&labelColor=0D1117" alt="Location" />
 </p>
 <img src="assets/terminal-console.svg" width="100%" alt="Terminal System Console" />
@@ -69,7 +69,7 @@
 </table>
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/Tiburonchin/Tiburonchin/output/github-contribution-grid-snake-dark.svg" width="100%" alt="GitHub Contribution Snake" />
+<img src="assets/snake.svg" width="100%" alt="GitHub Contribution Snake" />
 </div>
 
 <!-- ==================== PRODUCTION SYSTEMS & FEATURED REPOSITORIES ==================== -->
@@ -87,24 +87,16 @@ Plataforma empresarial para auditoría forense e inspección HSE en campo. Dedup
 <h4><a href="https://github.com/Tiburonchin/posgrado_carpetas">POSGRADO-UNAC-2026B — Sistema de Gestión de Carpetas</a></h4>
 Plataforma digital para la Escuela de Posgrado UNAC. Automatización del flujo de expedientes y carpetas de postulantes, validación documental y seguimiento coordinado por unidades académicas.<br/>
 • <b>Stack:</b> <code>JavaScript</code> <code>PHP</code> <code>MySQL</code> <code>REST API</code> <code>TailwindCSS</code>
-<hr/>
-<h4><a href="https://github.com/Tiburonchin/AUTOSCRAPING_PE">pe-distributed-scraper</a></h4>
-Pipeline distribuido de recolección y minería de datos web con arquitectura tolerante a fallos, esquemas dinámicos y ETL hacia almacenes relacionales.<br/>
-• <b>Stack:</b> <code>Python</code> <code>Scrapy</code> <code>Data Mining</code> <code>ETL Pipeline</code>
 </td>
 <td width="2%"></td>
 <td width="49%" valign="top">
+<h4><a href="https://github.com/Tiburonchin/AUTOSCRAPING_PE">pe-distributed-scraper</a></h4>
+Pipeline distribuido de recolección y minería de datos web con arquitectura tolerante a fallos, esquemas dinámicos y ETL hacia almacenes relacionales.<br/>
+• <b>Stack:</b> <code>Python</code> <code>Scrapy</code> <code>Data Mining</code> <code>ETL Pipeline</code>
+<hr/>
 <h4><a href="https://github.com/Tiburonchin/SLA_prog">sla-monitoring-core</a></h4>
 Módulo de cálculo y aseguramiento de Service Level Agreements (SLA) basado en Clean Architecture, alta cohesión y cobertura de pruebas unitarias.<br/>
 • <b>Stack:</b> <code>TypeScript</code> <code>Clean Architecture</code> <code>Jest</code> <code>Node.js</code>
-<hr/>
-<h4><a href="https://github.com/Tiburonchin/ELENA">ELENA — Interactive Romantic Experience Engine</a></h4>
-Micro-aplicación web interactiva por pasos (multi-step wizard) con interacciones dinámicas de cursor, validación reactiva y generación de invitaciones personalizadas.<br/>
-• <b>Stack:</b> <code>Vanilla JavaScript</code> <code>CSS3 Animations</code> <code>UX/UI Creative</code>
-<hr/>
-<h4><a href="https://posgradounac.edu.pe/">Academic Software Engineer @ UNAC</a></h4>
-Ingeniería de software institucional, infraestructura digital y despliegue continuo de portales y servicios académicos de alta concurrencia.<br/>
-• <b>Stack:</b> <code>Full-Stack Architecture</code> <code>Linux DevOps</code> <code>Security RLS</code>
 </td>
 </tr>
 </table>
@@ -128,6 +120,21 @@ Portal institucional de alta demanda para la gestión de programas de maestría 
 Sitio web corporativo y de catálogo comercial con diseño premium responsivo, micro-animaciones, optimización de velocidad de carga y captura de leads.<br/>
 • <b>URL En Vivo:</b> <a href="https://doctorcabello.pe/"><code>doctorcabello.pe</code></a><br/>
 • <b>Enfoque:</b> Branding digital, conversión comercial y Tailwind/WordPress architecture.
+</td>
+</tr>
+</table>
+
+<!-- ==================== CREATIVE & DEDICATED SHOWCASE (ELENA) ==================== -->
+<div align="center">
+<h3>// CREATIVE &amp; DEDICATED SHOWCASE //</h3>
+</div>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td width="100%" valign="top">
+<h4><a href="https://github.com/Tiburonchin/ELENA">ELENA — Interactive Experience &amp; Tribute Engine</a></h4>
+Micro-aplicación web interactiva por pasos (multi-step wizard) con interacciones reactivas de puntero, decisiones lúdicas y generación de invitaciones personalizadas. Un tributo digital programado con afecto y gratitud hacia mi compañera y apoyo incondicional en el camino de la ingeniería.<br/>
+• <b>Stack:</b> <code>Vanilla JavaScript</code> <code>CSS3 Animations</code> <code>UX/UI Creative</code> <code>Responsive SPA</code>
 </td>
 </tr>
 </table>
