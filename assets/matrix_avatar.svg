@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <!-- Background Vignette Gradient -->
+    <radialGradient id="spaceVignette" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#16081B" />
+      <stop offset="60%" stop-color="#090D16" />
+      <stop offset="100%" stop-color="#05070B" />
+    </radialGradient>
+
+    <!-- Retro Neon Cyber Gradient: Wine Red to Cyber Purple to Matrix Green -->
+    <linearGradient id="cyberNeonGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#990033">
+        <animate attributeName="stop-color" values="#990033;#E11D48;#7928CA;#00FF66;#990033" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="45%" stop-color="#7928CA">
+        <animate attributeName="stop-color" values="#7928CA;#990033;#E11D48;#7928CA" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="80%" stop-color="#A855F7">
+        <animate attributeName="stop-color" values="#A855F7;#00FF66;#990033;#A855F7" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#00FF66">
+        <animate attributeName="stop-color" values="#00FF66;#7928CA;#E11D48;#00FF66" dur="8s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <!-- Scanline effect -->
+    <pattern id="scanlines" width="100" height="4" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="100" y2="0" stroke="#000000" stroke-width="1.2" opacity="0.35" />
+    </pattern>
+
+    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="matrixSpark" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .bg { fill: url(#spaceVignette); }
+    .matrix-char {
+      font-family: "Courier New", "Fira Code", monospace;
+      font-weight: 700;
+      fill: url(#cyberNeonGrad);
+      letter-spacing: 2px;
+      user-select: none;
+    }
+    .hud-circle {
+      fill: none;
+      stroke-width: 1.5;
+      stroke-dasharray: 6 12;
+      animation: rotateHud 30s linear infinite;
+      transform-origin: center;
+    }
+    .hud-circle-inner {
+      fill: none;
+      stroke-width: 1;
+      stroke-dasharray: 4 8;
+      animation: rotateHudRev 20s linear infinite;
+      transform-origin: center;
+    }
+    .sparkle {
+      fill: #00FF66;
+      animation: twinkle 3s ease-in-out infinite;
+    }
+    .sparkle-red {
+      fill: #E11D48;
+      animation: twinkle 4s ease-in-out infinite 1.5s;
+    }
+    .sparkle-purple {
+      fill: #A855F7;
+      animation: twinkle 3.5s ease-in-out infinite 0.7s;
+    }
+    .glitch-path {
+      animation: subtleFloat 4s ease-in-out infinite;
+    }
+
+    @keyframes rotateHud {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    @keyframes rotateHudRev {
+      from { transform: rotate(360deg); }
+      to { transform: rotate(0deg); }
+    }
+    @keyframes twinkle {
+      0%, 100% { opacity: 0.2; transform: scale(0.8); }
+      50% { opacity: 1; transform: scale(1.3); }
+    }
+    @keyframes subtleFloat {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-4px); }
+    }
+  </style>
+
+  <!-- Deep Terminal Background -->
+  <rect width="500" height="500" rx="24" class="bg" />
+
+  <!-- Animated HUD Cybernetic Rings -->
+  <circle cx="250" cy="250" r="230" class="hud-circle" stroke="#7928CA" opacity="0.35" />
+  <circle cx="250" cy="250" r="215" class="hud-circle-inner" stroke="#990033" opacity="0.4" />
+  <circle cx="250" cy="250" r="200" stroke="#00FF66" stroke-width="0.8" stroke-dasharray="2 15" opacity="0.3" class="hud-circle" />
+
+  <!-- Grid Accents & Target Marks -->
+  <g opacity="0.3" stroke="#8B949E" stroke-width="0.8">
+    <line x1="20" y1="250" x2="45" y2="250" />
+    <line x1="455" y1="250" x2="480" y2="250" />
+    <line x1="250" y1="20" x2="250" y2="45" />
+    <line x1="250" y1="455" x2="250" y2="480" />
+    <rect x="25" y="25" width="8" height="8" fill="none" stroke="#E11D48" />
+    <rect x="467" y="25" width="8" height="8" fill="none" stroke="#00FF66" />
+    <rect x="25" y="467" width="8" height="8" fill="none" stroke="#A855F7" />
+    <rect x="467" y="467" width="8" height="8" fill="none" stroke="#990033" />
+  </g>
+
+  <!-- Floating Sparkles (Like in the reference) -->
+  <polygon points="120,180 123,187 130,190 123,193 120,200 117,193 110,190 117,187" class="sparkle" filter="url(#matrixSpark)" />
+  <polygon points="380,290 382,295 387,297 382,299 380,304 378,299 373,297 378,295" class="sparkle-red" filter="url(#matrixSpark)" />
+  <polygon points="360,150 362,154 366,156 362,158 360,162 358,158 354,156 358,154" class="sparkle-purple" filter="url(#matrixSpark)" />
+  <polygon points="100,320 102,324 106,326 102,328 100,332 98,328 94,326 98,324" class="sparkle" filter="url(#matrixSpark)" />
+
+  <!-- ASCII MATRIX GRADUATE AVATAR (Interactive Font Glyph Mapping) -->
+  <g class="glitch-path" filter="url(#neonGlow)">
+    <!-- Hat Diamond Top -->
+    <text x="250" y="105" text-anchor="middle" font-size="11" class="matrix-char">░▒▓█▓▒░</text>
+    <text x="250" y="117" text-anchor="middle" font-size="11" class="matrix-char">░▒▓███████▓▒░</text>
+    <text x="250" y="129" text-anchor="middle" font-size="11" class="matrix-char">░▒▓█████████████▓▒░</text>
+    <text x="250" y="141" text-anchor="middle" font-size="11" class="matrix-char">░▒▓███████████████████▓▒░</text>
+    <text x="250" y="153" text-anchor="middle" font-size="11" class="matrix-char">░▒▓█████████████████████████▓▒░</text>
+    <text x="250" y="165" text-anchor="middle" font-size="11" class="matrix-char">▓█████████████████████████████▓</text>
+    <text x="250" y="177" text-anchor="middle" font-size="11" class="matrix-char">░▒▓█████████████████████████▓▒░</text>
+    <text x="250" y="187" text-anchor="middle" font-size="10" class="matrix-char">░░▒▒▓▓███████████████▓▓▒▒░░</text>
+
+    <!-- Hat Skull Cap & Tassel Hanging -->
+    <text x="250" y="199" text-anchor="middle" font-size="11" class="matrix-char">█████████████████████    █▒</text>
+    <text x="250" y="211" text-anchor="middle" font-size="11" class="matrix-char">█████████████████████    █▒</text>
+    <text x="250" y="223" text-anchor="middle" font-size="11" class="matrix-char">▒▓█████████████████▓▒    ▓█</text>
+    <text x="250" y="235" text-anchor="middle" font-size="11" class="matrix-char">    █████████████        ░░</text>
+
+    <!-- Face & Eyes Matrix -->
+    <text x="250" y="247" text-anchor="middle" font-size="11" class="matrix-char">  ░▒  █████████  ▒░        </text>
+    <text x="250" y="259" text-anchor="middle" font-size="11" class="matrix-char">  ░▒ ▓█░█▒ █ ▒█░█▓ ▒░        </text>
+    <text x="250" y="271" text-anchor="middle" font-size="11" class="matrix-char">     ▓█░█▒ █ ▒█░█▓           </text>
+    <text x="250" y="283" text-anchor="middle" font-size="11" class="matrix-char">     ▒▓   ▒█▒   ▓▒           </text>
+    <text x="250" y="295" text-anchor="middle" font-size="11" class="matrix-char">      ░   ▓█▓   ░            </text>
+    <text x="250" y="307" text-anchor="middle" font-size="11" class="matrix-char">        ▒█████▒              </text>
+    <text x="250" y="317" text-anchor="middle" font-size="10" class="matrix-char">         ░▒▓▒░               </text>
+
+    <!-- Collar & Gown / Toga with UNAC Medal -->
+    <text x="250" y="331" text-anchor="middle" font-size="11" class="matrix-char">      ▒▓       ▓▒            </text>
+    <text x="250" y="343" text-anchor="middle" font-size="11" class="matrix-char">    ░███▓  █  ▓███░          </text>
+    <text x="250" y="355" text-anchor="middle" font-size="11" class="matrix-char">   ▒█████▒ █ ▒█████▒         </text>
+    <text x="250" y="367" text-anchor="middle" font-size="11" class="matrix-char">  ▓██████▓ █ ▓██████▓        </text>
+    <text x="250" y="379" text-anchor="middle" font-size="11" class="matrix-char"> ▓████████ █ ████████▓       </text>
+    <text x="250" y="391" text-anchor="middle" font-size="11" class="matrix-char">██████████░█░██████████      </text>
+    <text x="250" y="403" text-anchor="middle" font-size="11" class="matrix-char">██████████░█░██████████      </text>
+    <text x="250" y="415" text-anchor="middle" font-size="11" class="matrix-char">▓█████████ █ █████████▓      </text>
+    <text x="250" y="427" text-anchor="middle" font-size="11" class="matrix-char"> ░▓██████▓ █ ▓██████▓░       </text>
+  </g>
+
+  <!-- Overlay Scanlines for Retro Monitor Feel -->
+  <rect width="500" height="500" fill="url(#scanlines)" pointer-events="none" rx="24" />
+
+  <!-- Status Text at bottom -->
+  <text x="250" y="465" text-anchor="middle" font-family="'Fira Code', monospace" font-size="10" font-weight="600" fill="#00FF66" opacity="0.85" letter-spacing="3">
+    SYSTEM // EDGAR RAMOS // UNAC ENG
+  </text>
+</svg>
