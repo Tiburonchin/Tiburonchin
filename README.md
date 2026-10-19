@@ -17,8 +17,8 @@
 </a>
 <p>
 <img src="https://img.shields.io/badge/STATUS-SYSTEM_ONLINE-00FF66?style=flat-square&logo=statuspage&logoColor=black&labelColor=0D1117" alt="Status Online" />
-<img src="https://img.shields.io/badge/LEAD_PROJECT-ELIS_5.0_HSE-38BDF8?style=flat-square&logo=react&logoColor=white&labelColor=0D1117" alt="ELIS Lead" />
-<img src="https://img.shields.io/badge/UNAC-FACULTAD_FIEE_SISTEMAS-FF0055?style=flat-square&logo=unac&logoColor=white&labelColor=0D1117" alt="UNAC" />
+<img src="https://img.shields.io/badge/FIIS-SISTEMAS_7MO_CICLO-38BDF8?style=flat-square&logo=googlecloud&logoColor=white&labelColor=0D1117" alt="FIIS 7mo Ciclo" />
+<img src="https://img.shields.io/badge/UNAC-FACULTAD_FIEE_FIIS-FF0055?style=flat-square&logo=unac&logoColor=white&labelColor=0D1117" alt="UNAC" />
 <img src="https://img.shields.io/badge/LOCATION-CALLAO%2C_PERU-8B949E?style=flat-square&logo=googlemaps&logoColor=white&labelColor=0D1117" alt="Location" />
 </p>
 <img src="assets/terminal-console.svg" width="100%" alt="Terminal System Console" />
@@ -27,18 +27,20 @@
 </table>
 
 <!-- ==================== CORE TECH STACK ==================== -->
-### 🛠️ Core Tech Stack & Tooling
+<div align="center">
+<h3>// CORE TECH STACK &amp; TOOLING //</h3>
+</div>
 
 <table width="100%" border="0" cellpadding="0" cellspacing="0">
 <tr>
 <td width="49%" valign="top">
-<b>🧠 AI &amp; Agent Systems</b><br/>
+<b>AI &amp; AGENT SYSTEMS</b><br/>
 • <code>Languages &amp; SDKs</code> : Python 3.11+, LangChain, PyTorch, Ollama<br/>
 • <code>Protocols &amp; APIs</code> : FastMCP / Model Context Protocol, HuggingFace
 </td>
 <td width="2%"></td>
 <td width="49%" valign="top">
-<b>⚙️ Backend &amp; Cloud Ops</b><br/>
+<b>BACKEND &amp; CLOUD OPS</b><br/>
 • <code>Core Runtimes</code> : TypeScript, Node.js, FastAPI, PHP<br/>
 • <code>Containers &amp; DB</code> : Docker, PostgreSQL, Supabase, MySQL, LiveKit WebRTC
 </td>
@@ -50,7 +52,9 @@
 </div>
 
 <!-- ==================== TELEMETRÍA Y CONTRIBUCIONES ==================== -->
-### 📊 Telemetry & Live Stats
+<div align="center">
+<h3>// TELEMETRY &amp; LIVE STATS //</h3>
+</div>
 
 <table width="100%" border="0" cellpadding="0" cellspacing="0">
 <tr>
@@ -69,34 +73,36 @@
 </div>
 
 <!-- ==================== PRODUCTION SYSTEMS & FEATURED REPOSITORIES ==================== -->
-### 🚀 Production Systems & Featured Projects
+<div align="center">
+<h3>// PRODUCTION SYSTEMS &amp; FEATURED PROJECTS //</h3>
+</div>
 
 <table width="100%" border="0" cellpadding="0" cellspacing="0">
 <tr>
 <td width="49%" valign="top">
-<h4>🛡️ <a href="https://github.com/Tiburonchin/ELIS_5.vs2.2">ELIS 5.0 — Cloud-Native HSE &amp; Forensics Platform</a></h4>
+<h4><a href="https://github.com/Tiburonchin/ELIS_5.vs2.2">ELIS 5.0 — Cloud-Native HSE &amp; Forensics Platform</a></h4>
 Plataforma empresarial para auditoría forense e inspección HSE en campo. Deduplicación criptográfica de imágenes (SHA-256 en WebCrypto), OCR en navegador con Tesseract.js Web Workers y sincronización atómica Postgres RPC.<br/>
 • <b>Stack:</b> <code>React 19</code> <code>TypeScript</code> <code>Supabase Cloud</code> <code>Tesseract OCR</code> <code>Tailwind v4</code>
 <hr/>
-<h4>🏛️ <a href="https://github.com/Tiburonchin/posgrado_carpetas">POSGRADO-UNAC-2026B — Sistema de Gestión de Carpetas</a></h4>
+<h4><a href="https://github.com/Tiburonchin/posgrado_carpetas">POSGRADO-UNAC-2026B — Sistema de Gestión de Carpetas</a></h4>
 Plataforma digital para la Escuela de Posgrado UNAC. Automatización del flujo de expedientes y carpetas de postulantes, validación documental y seguimiento coordinado por unidades académicas.<br/>
 • <b>Stack:</b> <code>JavaScript</code> <code>PHP</code> <code>MySQL</code> <code>REST API</code> <code>TailwindCSS</code>
 <hr/>
-<h4>🕷️ <a href="https://github.com/Tiburonchin/AUTOSCRAPING_PE">pe-distributed-scraper</a></h4>
+<h4><a href="https://github.com/Tiburonchin/AUTOSCRAPING_PE">pe-distributed-scraper</a></h4>
 Pipeline distribuido de recolección y minería de datos web con arquitectura tolerante a fallos, esquemas dinámicos y ETL hacia almacenes relacionales.<br/>
 • <b>Stack:</b> <code>Python</code> <code>Scrapy</code> <code>Data Mining</code> <code>ETL Pipeline</code>
 </td>
 <td width="2%"></td>
 <td width="49%" valign="top">
-<h4>⏱️ <a href="https://github.com/Tiburonchin/SLA_prog">sla-monitoring-core</a></h4>
+<h4><a href="https://github.com/Tiburonchin/SLA_prog">sla-monitoring-core</a></h4>
 Módulo de cálculo y aseguramiento de Service Level Agreements (SLA) basado en Clean Architecture, alta cohesión y cobertura de pruebas unitarias.<br/>
 • <b>Stack:</b> <code>TypeScript</code> <code>Clean Architecture</code> <code>Jest</code> <code>Node.js</code>
 <hr/>
-<h4>✨ <a href="https://github.com/Tiburonchin/ELENA">ELENA — Interactive Romantic Experience Engine</a></h4>
+<h4><a href="https://github.com/Tiburonchin/ELENA">ELENA — Interactive Romantic Experience Engine</a></h4>
 Micro-aplicación web interactiva por pasos (multi-step wizard) con interacciones dinámicas de cursor, validación reactiva y generación de invitaciones personalizadas.<br/>
 • <b>Stack:</b> <code>Vanilla JavaScript</code> <code>CSS3 Animations</code> <code>UX/UI Creative</code>
 <hr/>
-<h4>🎓 <a href="https://posgradounac.edu.pe/">Academic Software Engineer @ UNAC</a></h4>
+<h4><a href="https://posgradounac.edu.pe/">Academic Software Engineer @ UNAC</a></h4>
 Ingeniería de software institucional, infraestructura digital y despliegue continuo de portales y servicios académicos de alta concurrencia.<br/>
 • <b>Stack:</b> <code>Full-Stack Architecture</code> <code>Linux DevOps</code> <code>Security RLS</code>
 </td>
@@ -104,19 +110,21 @@ Ingeniería de software institucional, infraestructura digital y despliegue cont
 </table>
 
 <!-- ==================== WEBSITES & LIVE PLATFORMS SHOWCASE ==================== -->
-### 🌐 Live Platforms & Web Deployments
+<div align="center">
+<h3>// LIVE PLATFORMS &amp; WEB DEPLOYMENTS //</h3>
+</div>
 
 <table width="100%" border="0" cellpadding="0" cellspacing="0">
 <tr>
 <td width="49%" valign="top">
-<h4>🏛️ <a href="https://posgradounac.edu.pe/">Escuela de Posgrado UNAC — Portal Oficial</a></h4>
+<h4><a href="https://posgradounac.edu.pe/">Escuela de Posgrado UNAC — Portal Oficial</a></h4>
 Portal institucional de alta demanda para la gestión de programas de maestría y doctorado, admisiones y servicios académicos de la Universidad Nacional del Callao.<br/>
 • <b>URL En Vivo:</b> <a href="https://posgradounac.edu.pe/"><code>posgradounac.edu.pe</code></a><br/>
 • <b>Enfoque:</b> UI/UX institucional, optimización SEO y pasarela informativa.
 </td>
 <td width="2%"></td>
 <td width="49%" valign="top">
-<h4>💈 <a href="https://doctorcabello.pe/">Doctor Cabello — Plataforma Web Comercial</a></h4>
+<h4><a href="https://doctorcabello.pe/">Doctor Cabello — Plataforma Web Comercial</a></h4>
 Sitio web corporativo y de catálogo comercial con diseño premium responsivo, micro-animaciones, optimización de velocidad de carga y captura de leads.<br/>
 • <b>URL En Vivo:</b> <a href="https://doctorcabello.pe/"><code>doctorcabello.pe</code></a><br/>
 • <b>Enfoque:</b> Branding digital, conversión comercial y Tailwind/WordPress architecture.
@@ -125,7 +133,9 @@ Sitio web corporativo y de catálogo comercial con diseño premium responsivo, m
 </table>
 
 <!-- ==================== CONNECT HUB ==================== -->
-### 📡 Connect // Communication Channels
+<div align="center">
+<h3>// CONNECT &amp; COMMUNICATION CHANNELS //</h3>
+</div>
 
 <div align="center">
 <a href="https://www.linkedin.com/in/edgar-ramos-trujillo-457ba8411"><img src="https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
