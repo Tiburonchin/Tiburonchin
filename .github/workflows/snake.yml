@@ -1,0 +1,43 @@
+name: Generate Contribution Snake Animation
+
+on:
+  # Ejecución automática programada cada 12 horas
+  schedule:
+    - cron: "0 */12 * * *"
+  
+  # Permite ejecutar el workflow manualmente en cualquier momento desde la pestaña Actions
+  workflow_dispatch:
+  
+  # Ejecuta cada vez que hagas un push a la rama principal
+  push:
+    branches:
+      - main
+      - master
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate GitHub Contribution Grid Snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=%2300FF66&color_dots=%23161b22,%234c1d95,%237c3aed,%23a855f7,%23ff0055
+
+      - name: Push Snake SVG to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
