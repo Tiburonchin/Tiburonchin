@@ -1,86 +1,87 @@
 <div align="center">
 
-  <!-- ==================== HEADER DINÁMICO CAPSULE (LOCAL SVG 100% CONFIABLE) ==================== -->
+  <!-- ==================== HEADER (LOCAL SVG) ==================== -->
   <img src="assets/header.svg" width="100%" alt="Edgar Ramos Header" />
-
-  <br/>
-
-  <!-- ==================== RETRO ASCII MATRIX GRADUATE AVATAR ==================== -->
-  <p align="center">
-    <a href="https://github.com/Tiburonchin">
-      <img src="assets/matrix_avatar.svg" width="280" alt="Edgar Ramos - Retro Matrix Graduate Avatar" />
-    </a>
-  </p>
-
-  <!-- ==================== SUBTÍTULO ANIMADO CON TYPING SVG (TERMINAL GREEN & RETRO RED) ==================== -->
-  <p align="center">
-    <a href="https://github.com/Tiburonchin">
-      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=1000&color=00FF66&center=true&vCenter=true&multiline=false&width=650&height=50&lines=System.init(AI_Agents+%26+MCP_Orchestration);DevOps%2C+CI%2FCD+Pipelines+%26+Cloud+Automation;Architecting+High-Performance+Distributed+Backends;Full-Stack+Engineering+with+TypeScript+%26+Python" alt="Typing SVG" />
-    </a>
-  </p>
-
-  <!-- ==================== STATUS PILLS ==================== -->
-  <p align="center">
-    <img src="https://img.shields.io/badge/STATUS-ARCHITECTING_AI_SYSTEMS-00FF66?style=for-the-badge&logo=statuspage&logoColor=05070B&labelColor=0D1117" alt="Status Badge" />
-    <img src="https://img.shields.io/badge/FOCUS-AUTONOMOUS_AGENTS_(MCP)-8A2BE2?style=for-the-badge&logo=openai&logoColor=white&labelColor=0D1117" alt="Focus Badge" />
-    <img src="https://img.shields.io/badge/LOCATION-CALLAO%2C_PERU-990033?style=for-the-badge&logo=googlemaps&logoColor=white&labelColor=0D1117" alt="Location Badge" />
-  </p>
-
-  <!-- ==================== RETRO NEON SOCIAL BAR (CON TUS ENLACES REALES) ==================== -->
-  <h3>🌐 Let's Connect</h3>
-  <p align="center">
-    <a href="https://www.linkedin.com/in/edgar-ramos-trujillo-457ba8411" target="_blank">
-      <img src="https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-    </a>
-    <a href="https://www.instagram.com/ealexis_rt?mdxt=MXdwdzNnbmhiNW1oag==" target="_blank">
-      <img src="https://img.shields.io/badge/INSTAGRAM-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
-    </a>
-    <a href="mailto:edalramt@gmail.com" target="_blank">
-      <img src="https://img.shields.io/badge/GMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Personal Gmail" />
-    </a>
-    <a href="mailto:earamost@unac.edu.pe" target="_blank">
-      <img src="https://img.shields.io/badge/UNAC_MAIL-7928CA?style=for-the-badge&logo=googlecloud&logoColor=white" alt="UNAC Institutional Mail" />
-    </a>
-    <a href="https://posgrado.unac.edu.pe/" target="_blank">
-      <img src="https://img.shields.io/badge/ROLE-SOFTWARE_ENGINEER_%40_UNAC-00FF66?style=for-the-badge&logo=unac&logoColor=05070B&labelColor=0D1117" alt="UNAC EPG" />
-    </a>
-    <a href="https://github.com/Tiburonchin" target="_blank">
-      <img src="https://img.shields.io/badge/GITHUB-Tiburonchin-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile" />
-    </a>
-  </p>
-
-  <p align="center">
-    <sub><i>See you in the next commit</i> 🌸</sub>
-  </p>
 
 </div>
 
----
+<br/>
 
-### ⚡ `tiburonchin.terminal --sys-info`
+<!-- ==================== LAYOUT HORIZONTAL DE DOS COLUMNAS (WIDE RETRO HUD) ==================== -->
+<table width="100%" border="0">
+  <tr>
+    <!-- COLUMNA IZQUIERDA: AVATAR MATRIX ANIMADO -->
+    <td width="38%" align="center" valign="middle" style="background:#090D16; border:1px solid #7928CA; border-radius:12px; padding:20px;">
+      <a href="https://github.com/Tiburonchin">
+        <img src="assets/matrix_avatar.svg" width="100%" style="max-width:280px;" alt="Edgar Ramos - Retro Matrix Graduate Avatar" />
+      </a>
+      <br/><br/>
+      <img src="https://img.shields.io/badge/STATUS-ONLINE_AI_SYSTEMS-00FF66?style=for-the-badge&logo=statuspage&logoColor=05070B&labelColor=0D1117" alt="Status" />
+      <br/>
+      <p style="margin-top:8px; font-family:'Courier New', monospace; font-size:12px; color:#A855F7;">
+        <b>EDGAR RAMOS TRUJILLO</b><br/>
+        <span style="color:#8B949E;">Sistemas UNAC • AI & DevOps</span>
+      </p>
+    </td>
 
-```zsh
-❯ whoami
-  Edgar Ramos Trujillo | Sistemas UNAC | AI & Backend DevOps Engineer
+    <!-- COLUMNA DERECHA: CONSOLA Y TELEMETRÍA EN TIEMPO REAL -->
+    <td width="62%" valign="top" style="background:#090D16; border:1px solid #990033; border-radius:12px; padding:20px;">
+      
+      <!-- SUBTÍTULO ANIMADO TYPING -->
+      <a href="https://github.com/Tiburonchin">
+        <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=2600&pause=1000&color=00FF66&center=false&vCenter=true&multiline=false&width=480&height=35&lines=%24+init_system+--target%3D%22AI_Agents%22;%24+deploy+--cloud%3D%22Docker+%2B+CI%2FCD%22;%24+architect+--stack%3D%22TypeScript+%2B+Python%22" alt="Typing SVG" />
+      </a>
 
-❯ system.specs
-  ├── Architecture       : Orchestration de agentes LLM, FastMCP, Model Context Protocol
-  ├── Production Core    : Python (FastAPI/Scrapy), TypeScript, React, Vite, Supabase (RLS/Auth)
-  ├── Cloud & Infra      : Docker Containers, Linux VPS (AlmaLinux/Ubuntu), LiveKit SFU WebRTC
-  └── CI/CD Pipelines    : GitHub Actions, Automated Testing, Cloud Deployment Workflows
-```
+      <!-- PILLS DE ESTADO Y ENFOQUE -->
+      <p style="margin: 8px 0;">
+        <img src="https://img.shields.io/badge/FOCUS-AUTONOMOUS_AGENTS_(MCP)-8A2BE2?style=flat-square&logo=openai&logoColor=white&labelColor=0D1117" alt="Focus" />
+        <img src="https://img.shields.io/badge/LOCATION-CALLAO%2C_PERU-E11D48?style=flat-square&logo=googlemaps&logoColor=white&labelColor=0D1117" alt="Location" />
+        <img src="https://img.shields.io/badge/UNAC-FACULTAD_FIEE_SISTEMAS-7928CA?style=flat-square&logo=unac&logoColor=white&labelColor=0D1117" alt="UNAC" />
+      </p>
 
----
+      <!-- TERMINAL SYS-INFO -->
+      <pre style="background:#05070B; border:1px solid #30363D; border-radius:6px; padding:12px; font-family:'Fira Code', monospace; font-size:11.5px; color:#F0F6FC; margin:10px 0;">
+<span style="color:#00FF66;">❯ whoami</span>
+  Edgar Ramos Trujillo | AI Engineering & Cloud DevOps
 
+<span style="color:#E11D48;">❯ core_specialties</span>
+  ├── <b>Autonomous Systems</b> : FastMCP, Model Context Protocol, LLM Orchestration
+  ├── <b>Backend & Pipelines</b> : Python (FastAPI/Scrapy), TypeScript, Supabase (RLS/Auth)
+  └── <b>Infrastructure Ops</b> : Docker Containers, WebRTC Streaming (LiveKit), GitHub Actions</pre>
+
+      <!-- LET'S CONNECT BUTTONS WIDE -->
+      <p style="margin-top:12px;">
+        <a href="https://www.linkedin.com/in/edgar-ramos-trujillo-457ba8411" target="_blank">
+          <img src="https://img.shields.io/badge/LINKEDIN-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
+        </a>
+        <a href="https://www.instagram.com/ealexis_rt?mdxt=MXdwdzNnbmhiNW1oag==" target="_blank">
+          <img src="https://img.shields.io/badge/INSTAGRAM-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram" />
+        </a>
+        <a href="mailto:edalramt@gmail.com" target="_blank">
+          <img src="https://img.shields.io/badge/GMAIL-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Gmail" />
+        </a>
+        <a href="mailto:earamost@unac.edu.pe" target="_blank">
+          <img src="https://img.shields.io/badge/UNAC_MAIL-7928CA?style=flat-square&logo=googlecloud&logoColor=white" alt="UNAC Mail" />
+        </a>
+        <a href="https://posgrado.unac.edu.pe/" target="_blank">
+          <img src="https://img.shields.io/badge/ROLE-SOFTWARE_ENGINEER_%40_UNAC-00FF66?style=flat-square&labelColor=0D1117&logoColor=05070B" alt="UNAC" />
+        </a>
+      </p>
+
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<!-- ==================== TECH STACK APILADO WIDE ==================== -->
 ### 🛠️ Core Tech Stack & Tooling
-
-<div align="center">
 
 <table width="100%">
   <thead>
     <tr style="border-bottom: 2px solid #8A2BE2;">
-      <th width="30%" align="left" style="background:#161B22; color:#A855F7;">Domain</th>
-      <th width="70%" align="left" style="background:#161B22; color:#00FF66;">Production Tooling & Frameworks</th>
+      <th width="28%" align="left" style="background:#161B22; color:#A855F7; padding:10px;">Domain</th>
+      <th width="72%" align="left" style="background:#161B22; color:#00FF66; padding:10px;">Production Tooling & Frameworks</th>
     </tr>
   </thead>
   <tbody>
@@ -130,26 +131,52 @@
   </tbody>
 </table>
 
-</div>
-
 <br/>
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=py,ts,react,vite,tailwind,supabase,postgres,docker,githubactions,linux,bash,postman&theme=dark" alt="Skill Icons Matrix" />
 </div>
 
----
+<br/>
 
+<!-- ==================== TELEMETRÍA Y CONTRIBUCIONES (SNAKE SOBRE HISTORIAL REAL) ==================== -->
+### 📊 Telemetry & Live Contributions
+
+<table width="100%" border="0">
+  <tr>
+    <td width="33%" align="center">
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=Tiburonchin&theme=dark&background=0D1117&border=990033&stroke=A855F7&ring=E11D48&fire=E11D48&currStreakLabel=00FF66&currStreakNum=F0F6FC&sideNums=F0F6FC&sideLabels=8B949E&dates=8B949E" width="100%" alt="GitHub Streak Stats" />
+    </td>
+    <td width="33%" align="center">
+      <img src="https://github-readme-stats.vercel.app/api?username=Tiburonchin&show_icons=true&theme=dark&bg_color=0D1117&title_color=A855F7&icon_color=E11D48&text_color=F0F6FC&border_color=990033&hide_border=false&count_private=true" width="100%" alt="GitHub Readme Stats" />
+    </td>
+    <td width="34%" align="center">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tiburonchin&theme=dark&bg_color=0D1117&title_color=A855F7&text_color=F0F6FC&border_color=990033&layout=compact" width="100%" alt="Top Languages" />
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<!-- ANIMATED SNAKE GRID CONTROLLER (DIRECTO DESDE RAMA OUTPUT CON TUS COMMITS REALES) -->
+<div align="center" style="background:#090D16; border:1px solid #7928CA; border-radius:12px; padding:15px; margin: 15px 0;">
+  <p align="left" style="margin-left: 10px; font-family:'Fira Code', monospace; font-size:12px; color:#00FF66;">
+    ● <b>LIVE CONTRIBUTION SNAKE</b> <span style="color:#8B949E;">// Traversing active commit history</span>
+  </p>
+  <img src="https://raw.githubusercontent.com/Tiburonchin/Tiburonchin/output/github-contribution-grid-snake-dark.svg" width="100%" alt="GitHub Contribution Snake" />
+</div>
+
+<br/>
+
+<!-- ==================== FEATURED SYSTEMS EN LA PARTE FINAL PARA MÁXIMO IMPACTO ==================== -->
 ### 🚀 Production Systems & Featured Projects
-
-<div align="center">
 
 <table width="100%">
   <thead>
     <tr style="border-bottom: 2px solid #990033;">
-      <th width="32%" align="left" style="background:#161B22; color:#A855F7;">Project Architecture</th>
-      <th width="48%" align="left" style="background:#161B22; color:#F0F6FC;">Description & Key Highlights</th>
-      <th width="20%" align="center" style="background:#161B22; color:#00FF66;">Stack / Pipeline</th>
+      <th width="32%" align="left" style="background:#161B22; color:#A855F7; padding:10px;">Project Architecture</th>
+      <th width="48%" align="left" style="background:#161B22; color:#F0F6FC; padding:10px;">Description & Key Highlights</th>
+      <th width="20%" align="center" style="background:#161B22; color:#00FF66; padding:10px;">Stack / Pipeline</th>
     </tr>
   </thead>
   <tbody>
@@ -226,50 +253,9 @@
   </tbody>
 </table>
 
-</div>
-
----
-
-### 📊 Telemetry & Real-Time Analytics
-
-<div align="center">
-  <table border="0">
-    <tr>
-      <td align="center" width="50%">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=Tiburonchin&theme=dark&background=0D1117&border=990033&stroke=A855F7&ring=E11D48&fire=E11D48&currStreakLabel=00FF66&currStreakNum=F0F6FC&sideNums=F0F6FC&sideLabels=8B949E&dates=8B949E" width="100%" alt="GitHub Streak Stats" />
-      </td>
-      <td align="center" width="50%">
-        <img src="https://github-readme-stats.vercel.app/api?username=Tiburonchin&show_icons=true&theme=dark&bg_color=0D1117&title_color=A855F7&icon_color=E11D48&text_color=F0F6FC&border_color=990033&hide_border=false&count_private=true" width="100%" alt="GitHub Readme Stats" />
-      </td>
-    </tr>
-  </table>
-
-  <br/>
-
-  <!-- ACTIVITY CURVE GRAPH CON PALETA GUINDA / MORADO / VERDE -->
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Tiburonchin&bg_color=0D1117&color=00FF66&line=E11D48&point=A855F7&area=true&area_color=5B061E&hide_border=false&border_color=990033" width="100%" alt="GitHub Activity Graph" />
-
-  <br/><br/>
-
-  <!-- TROPHY SHOWCASE -->
-  <img src="https://github-profile-trophy.vercel.app/?username=Tiburonchin&theme=radical&no-frame=true&no-bg=true&margin-w=4&row=1&column=7" width="100%" alt="GitHub Trophies" />
-
-</div>
-
----
-
-<!-- ==================== AUTOMATED SNAKE CONTRIBUTION GRAPH ==================== -->
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Tiburonchin/Tiburonchin/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Tiburonchin/Tiburonchin/output/github-contribution-grid-snake.svg">
-    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/Tiburonchin/Tiburonchin/output/github-contribution-grid-snake-dark.svg" width="100%" />
-  </picture>
-</div>
-
 <br/>
 
-<!-- ==================== FOOTER DINÁMICO CAPSULE (LOCAL SVG 100% CONFIABLE) ==================== -->
+<!-- ==================== FOOTER DINÁMICO CAPSULE (LOCAL SVG) ==================== -->
 <div align="center">
   <img src="assets/footer.svg" width="100%" alt="Footer Edgar Ramos" />
   
