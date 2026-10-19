@@ -8,28 +8,30 @@
 <br/>
 
 <!-- ==================== LAYOUT HORIZONTAL DE DOS COLUMNAS (WIDE RETRO HUD) ==================== -->
-<table width="100%" border="0">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
   <tr>
-    <!-- COLUMNA IZQUIERDA: AVATAR MATRIX ANIMADO -->
-    <td width="38%" align="center" valign="middle" style="background:#090D16; border:1px solid #7928CA; border-radius:12px; padding:20px;">
+    <!-- COLUMNA IZQUIERDA: AVATAR MATRIX RETRO-FUTURISTA -->
+    <td width="35%" align="center" valign="middle" style="background:#090D16; border:1px solid #7928CA; border-radius:12px; padding:20px;">
       <a href="https://github.com/Tiburonchin">
-        <img src="assets/matrix_avatar.svg" width="100%" style="max-width:280px;" alt="Edgar Ramos - Retro Matrix Graduate Avatar" />
+        <img src="assets/matrix_avatar.svg" width="100%" style="max-width:260px;" alt="Edgar Ramos - Retro Matrix Graduate Avatar" />
       </a>
       <br/><br/>
-      <img src="https://img.shields.io/badge/STATUS-ONLINE_AI_SYSTEMS-00FF66?style=for-the-badge&logo=statuspage&logoColor=05070B&labelColor=0D1117" alt="Status" />
+      <img src="https://img.shields.io/badge/STATUS-SYSTEM_ONLINE-E11D48?style=for-the-badge&logo=statuspage&logoColor=white&labelColor=0D1117" alt="Status" />
       <br/>
-      <p style="margin-top:8px; font-family:'Courier New', monospace; font-size:12px; color:#A855F7;">
+      <p style="margin-top:10px; font-family:'Courier New', monospace; font-size:12.5px; color:#A855F7;">
         <b>EDGAR RAMOS TRUJILLO</b><br/>
         <span style="color:#8B949E;">Sistemas UNAC • AI & DevOps</span>
       </p>
     </td>
 
+    <td width="2%"></td>
+
     <!-- COLUMNA DERECHA: CONSOLA Y TELEMETRÍA EN TIEMPO REAL -->
-    <td width="62%" valign="top" style="background:#090D16; border:1px solid #990033; border-radius:12px; padding:20px;">
+    <td width="63%" valign="top" style="background:#090D16; border:1px solid #990033; border-radius:12px; padding:20px;">
       
-      <!-- SUBTÍTULO ANIMADO TYPING -->
+      <!-- SUBTÍTULO ANIMADO TYPING (ROJO NEÓN / GUINDA) -->
       <a href="https://github.com/Tiburonchin">
-        <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=2600&pause=1000&color=00FF66&center=false&vCenter=true&multiline=false&width=480&height=35&lines=%24+init_system+--target%3D%22AI_Agents%22;%24+deploy+--cloud%3D%22Docker+%2B+CI%2FCD%22;%24+architect+--stack%3D%22TypeScript+%2B+Python%22" alt="Typing SVG" />
+        <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=2600&pause=1000&color=E11D48&center=false&vCenter=true&multiline=false&width=480&height=35&lines=%24+init_system+--target%3D%22AI_Agents%22;%24+deploy+--cloud%3D%22Docker+%2B+CI%2FCD%22;%24+architect+--stack%3D%22TypeScript+%2B+Python%22" alt="Typing SVG" />
       </a>
 
       <!-- PILLS DE ESTADO Y ENFOQUE -->
@@ -40,32 +42,17 @@
       </p>
 
       <!-- TERMINAL SYS-INFO -->
-      <pre style="background:#05070B; border:1px solid #30363D; border-radius:6px; padding:12px; font-family:'Fira Code', monospace; font-size:11.5px; color:#F0F6FC; margin:10px 0;">
-<span style="color:#00FF66;">❯ whoami</span>
+      <pre style="background:#05070B; border:1px solid #30363D; border-radius:8px; padding:14px; font-family:'Fira Code', monospace; font-size:11.5px; color:#F0F6FC; margin:12px 0;">
+<span style="color:#E11D48;">❯ whoami</span>
   Edgar Ramos Trujillo | AI Engineering & Cloud DevOps
 
-<span style="color:#E11D48;">❯ core_specialties</span>
+<span style="color:#A855F7;">❯ core_specialties</span>
   ├── <b>Autonomous Systems</b> : FastMCP, Model Context Protocol, LLM Orchestration
   ├── <b>Backend & Pipelines</b> : Python (FastAPI/Scrapy), TypeScript, Supabase (RLS/Auth)
   └── <b>Infrastructure Ops</b> : Docker Containers, WebRTC Streaming (LiveKit), GitHub Actions</pre>
 
-      <!-- LET'S CONNECT BUTTONS WIDE -->
-      <p style="margin-top:12px;">
-        <a href="https://www.linkedin.com/in/edgar-ramos-trujillo-457ba8411" target="_blank">
-          <img src="https://img.shields.io/badge/LINKEDIN-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
-        </a>
-        <a href="https://www.instagram.com/ealexis_rt?mdxt=MXdwdzNnbmhiNW1oag==" target="_blank">
-          <img src="https://img.shields.io/badge/INSTAGRAM-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram" />
-        </a>
-        <a href="mailto:edalramt@gmail.com" target="_blank">
-          <img src="https://img.shields.io/badge/GMAIL-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Gmail" />
-        </a>
-        <a href="mailto:earamost@unac.edu.pe" target="_blank">
-          <img src="https://img.shields.io/badge/UNAC_MAIL-7928CA?style=flat-square&logo=googlecloud&logoColor=white" alt="UNAC Mail" />
-        </a>
-        <a href="https://posgrado.unac.edu.pe/" target="_blank">
-          <img src="https://img.shields.io/badge/ROLE-SOFTWARE_ENGINEER_%40_UNAC-00FF66?style=flat-square&labelColor=0D1117&logoColor=05070B" alt="UNAC" />
-        </a>
+      <p style="margin-top:10px; font-family:'Fira Code', monospace; font-size:11px; color:#8B949E;">
+        ⚡ <i>Building robust architectures for high-concurrency environments.</i>
       </p>
 
     </td>
@@ -81,7 +68,7 @@
   <thead>
     <tr style="border-bottom: 2px solid #8A2BE2;">
       <th width="28%" align="left" style="background:#161B22; color:#A855F7; padding:10px;">Domain</th>
-      <th width="72%" align="left" style="background:#161B22; color:#00FF66; padding:10px;">Production Tooling & Frameworks</th>
+      <th width="72%" align="left" style="background:#161B22; color:#E11D48; padding:10px;">Production Tooling & Frameworks</th>
     </tr>
   </thead>
   <tbody>
@@ -142,15 +129,17 @@
 <!-- ==================== TELEMETRÍA Y CONTRIBUCIONES (SNAKE SOBRE HISTORIAL REAL) ==================== -->
 ### 📊 Telemetry & Live Contributions
 
-<table width="100%" border="0">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
   <tr>
     <td width="33%" align="center">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=Tiburonchin&theme=dark&background=0D1117&border=990033&stroke=A855F7&ring=E11D48&fire=E11D48&currStreakLabel=00FF66&currStreakNum=F0F6FC&sideNums=F0F6FC&sideLabels=8B949E&dates=8B949E" width="100%" alt="GitHub Streak Stats" />
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=Tiburonchin&theme=dark&background=0D1117&border=990033&stroke=A855F7&ring=E11D48&fire=E11D48&currStreakLabel=A855F7&currStreakNum=F0F6FC&sideNums=F0F6FC&sideLabels=8B949E&dates=8B949E" width="100%" alt="GitHub Streak Stats" />
     </td>
+    <td width="1%"></td>
     <td width="33%" align="center">
       <img src="https://github-readme-stats.vercel.app/api?username=Tiburonchin&show_icons=true&theme=dark&bg_color=0D1117&title_color=A855F7&icon_color=E11D48&text_color=F0F6FC&border_color=990033&hide_border=false&count_private=true" width="100%" alt="GitHub Readme Stats" />
     </td>
-    <td width="34%" align="center">
+    <td width="1%"></td>
+    <td width="32%" align="center">
       <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tiburonchin&theme=dark&bg_color=0D1117&title_color=A855F7&text_color=F0F6FC&border_color=990033&layout=compact" width="100%" alt="Top Languages" />
     </td>
   </tr>
@@ -160,7 +149,7 @@
 
 <!-- ANIMATED SNAKE GRID CONTROLLER (DIRECTO DESDE RAMA OUTPUT CON TUS COMMITS REALES) -->
 <div align="center" style="background:#090D16; border:1px solid #7928CA; border-radius:12px; padding:15px; margin: 15px 0;">
-  <p align="left" style="margin-left: 10px; font-family:'Fira Code', monospace; font-size:12px; color:#00FF66;">
+  <p align="left" style="margin-left: 10px; font-family:'Fira Code', monospace; font-size:12px; color:#E11D48;">
     ● <b>LIVE CONTRIBUTION SNAKE</b> <span style="color:#8B949E;">// Traversing active commit history</span>
   </p>
   <img src="https://raw.githubusercontent.com/Tiburonchin/Tiburonchin/output/github-contribution-grid-snake-dark.svg" width="100%" alt="GitHub Contribution Snake" />
@@ -168,7 +157,7 @@
 
 <br/>
 
-<!-- ==================== FEATURED SYSTEMS EN LA PARTE FINAL PARA MÁXIMO IMPACTO ==================== -->
+<!-- ==================== FEATURED SYSTEMS EN LA PARTE FINAL ==================== -->
 ### 🚀 Production Systems & Featured Projects
 
 <table width="100%">
@@ -176,7 +165,7 @@
     <tr style="border-bottom: 2px solid #990033;">
       <th width="32%" align="left" style="background:#161B22; color:#A855F7; padding:10px;">Project Architecture</th>
       <th width="48%" align="left" style="background:#161B22; color:#F0F6FC; padding:10px;">Description & Key Highlights</th>
-      <th width="20%" align="center" style="background:#161B22; color:#00FF66; padding:10px;">Stack / Pipeline</th>
+      <th width="20%" align="center" style="background:#161B22; color:#E11D48; padding:10px;">Stack / Pipeline</th>
     </tr>
   </thead>
   <tbody>
@@ -204,7 +193,7 @@
       <td align="center">
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
         <img src="https://img.shields.io/badge/MCP_Protocol-8A2BE2?style=flat-square" />
-        <img src="https://img.shields.io/badge/LLMs-FF0055?style=flat-square" />
+        <img src="https://img.shields.io/badge/LLMs-E11D48?style=flat-square" />
         <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white" />
       </td>
     </tr>
@@ -218,8 +207,8 @@
       <td align="center">
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
         <img src="https://img.shields.io/badge/ETL_Pipeline-E11D48?style=flat-square" />
-        <img src="https://img.shields.io/badge/Data_Mining-00FF66?style=flat-square&labelColor=0D1117" />
-        <img src="https://img.shields.io/badge/Automation-7928CA?style=flat-square" />
+        <img src="https://img.shields.io/badge/Data_Mining-7928CA?style=flat-square" />
+        <img src="https://img.shields.io/badge/Automation-990033?style=flat-square" />
       </td>
     </tr>
     <tr>
@@ -247,10 +236,50 @@
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
         <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
         <img src="https://img.shields.io/badge/SMTP_Engine-E11D48?style=flat-square" />
-        <img src="https://img.shields.io/badge/Batch_Jobs-00FF66?style=flat-square&labelColor=0D1117" />
+        <img src="https://img.shields.io/badge/Batch_Jobs-7928CA?style=flat-square" />
       </td>
     </tr>
   </tbody>
+</table>
+
+<br/>
+
+<!-- ==================== LET'S CONNECT DE ESQUINA A ESQUINA AL FINAL ==================== -->
+<table width="100%" border="0" cellpadding="0" cellspacing="0" style="background:#090D16; border:1px solid #7928CA; border-radius:12px; margin: 15px 0;">
+  <tr>
+    <td align="center" style="padding: 22px 15px;">
+      
+      <h3 style="margin: 0 0 14px 0; font-family:'Fira Code', monospace; color:#A855F7; letter-spacing: 2px;">
+        🌐 LET'S CONNECT // CONTACT CHANNEL
+      </h3>
+
+      <p align="center" style="margin: 0 0 10px 0;">
+        <a href="https://www.linkedin.com/in/edgar-ramos-trujillo-457ba8411" target="_blank">
+          <img src="https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+        </a>
+        <a href="https://www.instagram.com/ealexis_rt?mdxt=MXdwdzNnbmhiNW1oag==" target="_blank">
+          <img src="https://img.shields.io/badge/INSTAGRAM-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+        </a>
+        <a href="mailto:edalramt@gmail.com" target="_blank">
+          <img src="https://img.shields.io/badge/GMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Personal Gmail" />
+        </a>
+        <a href="mailto:earamost@unac.edu.pe" target="_blank">
+          <img src="https://img.shields.io/badge/UNAC_MAIL-7928CA?style=for-the-badge&logo=googlecloud&logoColor=white" alt="UNAC Institutional Mail" />
+        </a>
+        <a href="https://posgrado.unac.edu.pe/" target="_blank">
+          <img src="https://img.shields.io/badge/ROLE-SOFTWARE_ENGINEER_%40_UNAC-990033?style=for-the-badge&logo=unac&logoColor=white&labelColor=0D1117" alt="UNAC EPG" />
+        </a>
+        <a href="https://github.com/Tiburonchin" target="_blank">
+          <img src="https://img.shields.io/badge/GITHUB-Tiburonchin-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile" />
+        </a>
+      </p>
+
+      <p align="center" style="margin: 8px 0 0 0; font-family:'Fira Code', monospace; font-size:12px; color:#8B949E;">
+        <i>See you in the next commit</i> 🌸
+      </p>
+
+    </td>
+  </tr>
 </table>
 
 <br/>
