@@ -56,17 +56,10 @@
 <h3>// TELEMETRY &amp; LIVE STATS //</h3>
 </div>
 
-<table width="100%" border="0" cellpadding="0" cellspacing="0">
-<tr>
-<td width="50%" align="center" valign="middle">
-<img src="https://github-readme-stats.vercel.app/api?username=Tiburonchin&show_icons=true&theme=dark&bg_color=0D1117&title_color=A855F7&icon_color=FF0055&text_color=FFFFFF&border_color=A855F7&hide_border=false&count_private=true" width="100%" alt="GitHub Readme Stats" />
-</td>
-<td width="2%"></td>
-<td width="48%" align="center" valign="middle">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tiburonchin&theme=dark&bg_color=0D1117&title_color=A855F7&text_color=FFFFFF&border_color=A855F7&layout=compact" width="100%" alt="Top Languages" />
-</td>
-</tr>
-</table>
+<div align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=Tiburonchin&show_icons=true&theme=dark&bg_color=0D1117&title_color=A855F7&icon_color=FF0055&text_color=FFFFFF&border_color=A855F7&hide_border=false&count_private=true" height="195" alt="GitHub Readme Stats" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tiburonchin&theme=dark&bg_color=0D1117&title_color=A855F7&text_color=FFFFFF&border_color=A855F7&layout=compact&langs_count=8" height="195" alt="Top Languages" />
+</div>
 
 <div align="center">
 <img src="assets/snake.svg" width="100%" alt="GitHub Contribution Snake" />
