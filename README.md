@@ -129,7 +129,7 @@ Sitio web corporativo y de catálogo comercial con diseño premium responsivo, m
 
 <!-- ==================== SPECIAL DEDICATION (FOOTNOTE) ==================== -->
 <div align="center">
-<sub>✦ <i>Desarrollo interactivo dedicado con cariño a mi pareja: <a href="https://github.com/Tiburonchin/ELENA">ELENA (código abierto como referencia de experiencia SPA lúdica)</a></i> ✦</sub>
+<sub>✦ <i>Desarrollo interactivo dedicado con cariño: <a href="https://github.com/Tiburonchin/ELENA">ELENA (código abierto como referencia de experiencia SPA lúdica)</a></i> ✦</sub>
 </div>
 
 <!-- ==================== CONNECT HUB ==================== -->
